@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{02e12032-2c51-4560-9741-396714cfd324}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buffer">
+      <UniqueIdentifier>{f34a10b3-0582-428c-8606-ed3eaa728cfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mesh">
+      <UniqueIdentifier>{1fa9c226-2868-42b0-bce4-a53718bf3a56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture">
+      <UniqueIdentifier>{3ff2fe06-82f6-4ded-a6f3-2fcada6a13c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bound">
+      <UniqueIdentifier>{62a32147-d8df-4cc7-929c-d4946efee0eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bound\Box">
+      <UniqueIdentifier>{1715de07-7739-4ee3-9354-16f98926c950}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bound\Cylinder">
+      <UniqueIdentifier>{3b330088-ad89-478a-833a-9c46c95979ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bound\Sphere">
+      <UniqueIdentifier>{17c3327c-3012-4fa1-88ae-d026759be720}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mesh\Static">
+      <UniqueIdentifier>{a4978153-bcc3-4047-b103-fd244f3ee08e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mesh\Dynamic">
+      <UniqueIdentifier>{7f84b2d4-872d-4fb4-8607-13d4e6217a11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mesh\Dynamic\AnimationCtrl">
+      <UniqueIdentifier>{df0e2045-958e-4547-9e64-bc92efe3da97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mesh\Dynamic\HierarchyLoader">
+      <UniqueIdentifier>{3ced206b-4f25-40dc-8a3e-bbcb9cfefa26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mesh\Dynamic\SkinedMesh">
+      <UniqueIdentifier>{e48a838d-1020-4992-85af-74c987775b27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buffer\Cube">
+      <UniqueIdentifier>{6568bd06-49f8-4c1a-9ce7-0c76c41972d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buffer\Rect">
+      <UniqueIdentifier>{bd806ad7-32f4-49eb-83db-aa3ef839579e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buffer\Grid">
+      <UniqueIdentifier>{bec2e9f5-12fb-409f-99bb-daadbb05e49d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture\Cube">
+      <UniqueIdentifier>{654ce006-a6cc-4f8f-8f76-9931ff4beb61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture\General">
+      <UniqueIdentifier>{945e9f42-8bcd-488e-b9ae-52d9a7ef3042}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{42d12aee-1bda-4368-afda-bdce3d1758ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buffer\Terrain">
+      <UniqueIdentifier>{a8e4ffb2-5503-4102-85f1-7cb2552d3441}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buffer\TriColor">
+      <UniqueIdentifier>{491c464a-e762-4133-a147-6ed866124d53}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Bound.cpp">
+      <Filter>Bound</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundaryMgr.cpp">
+      <Filter>Bound</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundaryBox.cpp">
+      <Filter>Bound\Box</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundaryCylinder.cpp">
+      <Filter>Bound\Cylinder</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundarySphere.cpp">
+      <Filter>Bound\Sphere</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationCtrl.cpp">
+      <Filter>Mesh\Dynamic\AnimationCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="HierarchyLoader.cpp">
+      <Filter>Mesh\Dynamic\HierarchyLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicMesh.cpp">
+      <Filter>Mesh\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinedMesh.cpp">
+      <Filter>Mesh\Dynamic\SkinedMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshMgr.cpp">
+      <Filter>Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMgr.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="BufferMgr.cpp">
+      <Filter>Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="VIBuffer.cpp">
+      <Filter>Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticMesh.cpp">
+      <Filter>Mesh\Static</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeBuffer.cpp">
+      <Filter>Buffer\Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="RectBuffer.cpp">
+      <Filter>Buffer\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="GridBuffer.cpp">
+      <Filter>Buffer\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="TexCube.cpp">
+      <Filter>Texture\Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="TexGeneral.cpp">
+      <Filter>Texture\General</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundLoader.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>Buffer\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="TriCor.cpp">
+      <Filter>Buffer\TriColor</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Headers\ResourceConst.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\ResourceDef.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\ResourceMcr.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\ResourceStruct.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Bound.h">
+      <Filter>Bound</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundaryMgr.h">
+      <Filter>Bound</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundaryBox.h">
+      <Filter>Bound\Box</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundaryCylinder.h">
+      <Filter>Bound\Cylinder</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundarySphere.h">
+      <Filter>Bound\Sphere</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationCtrl.h">
+      <Filter>Mesh\Dynamic\AnimationCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="HierarchyLoader.h">
+      <Filter>Mesh\Dynamic\HierarchyLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicMesh.h">
+      <Filter>Mesh\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinedMesh.h">
+      <Filter>Mesh\Dynamic\SkinedMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshMgr.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMgr.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="BufferMgr.h">
+      <Filter>Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="VIBuffer.h">
+      <Filter>Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticMesh.h">
+      <Filter>Mesh\Static</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeBuffer.h">
+      <Filter>Buffer\Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="RectBuffer.h">
+      <Filter>Buffer\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="GridBuffer.h">
+      <Filter>Buffer\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="TexCube.h">
+      <Filter>Texture\Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="TexGeneral.h">
+      <Filter>Texture\General</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundLoader.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>Buffer\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="TriCor.h">
+      <Filter>Buffer\TriColor</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

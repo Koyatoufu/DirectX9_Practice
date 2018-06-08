@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{88D495A3-902A-4667-B4ED-1DA213128055}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DLL", "DLL", "{0D116F82-EA0D-45C1-9D03-6817B92A1BC0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Main", "Main\Include\Main.vcxproj", "{FB09B8F3-CE87-4636-AA58-F5FC0028039A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SystemDLL", "SystemDLL\Include\SystemDLL.vcxproj", "{DA247356-BC55-4EB0-BD58-5F06FDAD88BF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ResourceDLL", "ResourceDLL\Include\ResourceDLL.vcxproj", "{D81A4786-C5F2-4B23-AAC1-37C930E348A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB09B8F3-CE87-4636-AA58-F5FC0028039A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FB09B8F3-CE87-4636-AA58-F5FC0028039A}.Debug|Win32.Build.0 = Debug|Win32
+		{FB09B8F3-CE87-4636-AA58-F5FC0028039A}.Release|Win32.ActiveCfg = Release|Win32
+		{FB09B8F3-CE87-4636-AA58-F5FC0028039A}.Release|Win32.Build.0 = Release|Win32
+		{DA247356-BC55-4EB0-BD58-5F06FDAD88BF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DA247356-BC55-4EB0-BD58-5F06FDAD88BF}.Debug|Win32.Build.0 = Debug|Win32
+		{DA247356-BC55-4EB0-BD58-5F06FDAD88BF}.Release|Win32.ActiveCfg = Release|Win32
+		{DA247356-BC55-4EB0-BD58-5F06FDAD88BF}.Release|Win32.Build.0 = Release|Win32
+		{D81A4786-C5F2-4B23-AAC1-37C930E348A7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D81A4786-C5F2-4B23-AAC1-37C930E348A7}.Debug|Win32.Build.0 = Debug|Win32
+		{D81A4786-C5F2-4B23-AAC1-37C930E348A7}.Release|Win32.ActiveCfg = Release|Win32
+		{D81A4786-C5F2-4B23-AAC1-37C930E348A7}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FB09B8F3-CE87-4636-AA58-F5FC0028039A} = {88D495A3-902A-4667-B4ED-1DA213128055}
+		{DA247356-BC55-4EB0-BD58-5F06FDAD88BF} = {0D116F82-EA0D-45C1-9D03-6817B92A1BC0}
+		{D81A4786-C5F2-4B23-AAC1-37C930E348A7} = {0D116F82-EA0D-45C1-9D03-6817B92A1BC0}
+	EndGlobalSection
+EndGlobal

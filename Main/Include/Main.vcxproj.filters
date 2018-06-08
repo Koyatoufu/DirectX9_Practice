@@ -1,0 +1,704 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{60a411ae-fcd0-4d49-8967-b93d10d58596}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WinApi">
+      <UniqueIdentifier>{f3b3061e-e8c8-48a4-8e67-cb054062cf4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HashTable">
+      <UniqueIdentifier>{640a09c9-c444-4bb2-b28d-7144455f63f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DesignPattern">
+      <UniqueIdentifier>{09e2054b-2da8-4ca6-91a9-eaf23ed511e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress">
+      <UniqueIdentifier>{91c5cf43-ce99-414a-90f2-1b9f0a615e75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{44c84ca6-a35d-41eb-8ba2-15efaafb7904}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Camera">
+      <UniqueIdentifier>{430103cb-c09b-4671-9783-1ba23df021a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Camera\Dynamic">
+      <UniqueIdentifier>{cf179aec-37fd-46eb-b34f-cc2681d768f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Camera\Static">
+      <UniqueIdentifier>{2849b2e4-e810-462e-b680-17150e82c7d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Collision">
+      <UniqueIdentifier>{0c2b1f0e-af59-459d-aae1-aa375182491a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Shader">
+      <UniqueIdentifier>{4d674dc1-3d64-4cac-9853-04c99fb77436}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Shader\File">
+      <UniqueIdentifier>{3122669d-f905-42d3-b9f3-43e70eb6ff29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Shader\Effect">
+      <UniqueIdentifier>{6455059f-13e1-47e1-ba62-06ab894768b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Math">
+      <UniqueIdentifier>{4053632d-e7fa-4f1d-8b64-f5bf2fab6a8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\MovieLoader">
+      <UniqueIdentifier>{0801e02c-4aac-4ab7-bafc-4157824474ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\PipeLine">
+      <UniqueIdentifier>{ca2d6dd4-942e-463c-8a6c-9ea31e252b70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\State">
+      <UniqueIdentifier>{99e28dab-7cf1-42a7-b7d1-03f14b1082ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\State\Logo">
+      <UniqueIdentifier>{494ed219-8944-42f8-ae5f-e3368958e0b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\State\Stage">
+      <UniqueIdentifier>{e5297b4a-3531-4c19-90b0-9ec81a1f6f93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\State\Menu">
+      <UniqueIdentifier>{89bf973b-4725-4bb5-a30b-c54a08f0ee60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Object">
+      <UniqueIdentifier>{1ed76ca3-3746-4e1a-8450-47216212c48a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Object\Grid">
+      <UniqueIdentifier>{19765de3-f7d7-4e08-88f8-8bdf48ce1c53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\GeoGraphiDetect">
+      <UniqueIdentifier>{b6f8ba8c-9313-4904-b8df-9507d8546df4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\GeoGraphiDetect\OrcTree">
+      <UniqueIdentifier>{2e7035fd-b0f5-4d94-ad2e-c2012c2a7664}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\GeoGraphiDetect\QurdTree">
+      <UniqueIdentifier>{8267c30b-3edc-460e-bc89-ce52d8069f5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Frustum">
+      <UniqueIdentifier>{bfde3a0d-4a14-4f72-97bf-374195d16a88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Particle">
+      <UniqueIdentifier>{3f14f371-d291-47b1-a31e-445396f385e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\MousePick">
+      <UniqueIdentifier>{70be5035-5891-47dd-aa49-39afd5771224}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Object\Stage">
+      <UniqueIdentifier>{40587ad8-84d3-4a44-b495-35a7d423080f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Object\Stage\Dynamic">
+      <UniqueIdentifier>{d0181d27-9069-48c3-b9c3-7bc29e6b0e8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Object\Stage\Static">
+      <UniqueIdentifier>{a0ee1853-69fd-415a-b1b8-a6353c22f3e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Object\Stage\Static\Obstacle">
+      <UniqueIdentifier>{c6e646d1-ac83-46f8-bd6f-76bb040d92b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Object\Stage\Static\Terrain">
+      <UniqueIdentifier>{91167567-f908-4497-9ea5-9d9a3f20e07e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Object\Stage\Static\Weapon">
+      <UniqueIdentifier>{0d234287-20a9-42a2-a876-8deccf779b53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Object\Stage\Static\SkyBox">
+      <UniqueIdentifier>{246b0c10-08ab-419d-b1d5-68511049b1a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Particle\MachineCompenent">
+      <UniqueIdentifier>{f16808d1-baae-4578-962d-2c521c866730}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Particle\ExprosionDie">
+      <UniqueIdentifier>{11c85285-1046-47c1-a4c2-550d0707ac76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Object\MGR">
+      <UniqueIdentifier>{2c53859c-ad7c-4539-8f97-f5f6d07ff757}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Object\MGR\Sort">
+      <UniqueIdentifier>{9bed8a6c-be67-48ec-9c70-c9150a2c1282}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Object\Stage\Dynamic\Enemy">
+      <UniqueIdentifier>{ea340a46-05d2-4bce-89b2-a8b25b405ece}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Object\Stage\Dynamic\Enemy\Boss">
+      <UniqueIdentifier>{bc8112cb-bb14-46ff-abdb-e6116c6ec617}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Object\Stage\Dynamic\Enemy\AI">
+      <UniqueIdentifier>{81396344-807b-40a8-b55d-bfecf1627f18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Object\Stage\Dynamic\Enemy\Zako">
+      <UniqueIdentifier>{ec01fc41-d7e6-4333-aae9-79c77e0147cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Object\Stage\Dynamic\Enemy\Zako\ElecZako">
+      <UniqueIdentifier>{b58d5f4f-fe6b-4818-8a11-2fe1e1ac0f53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Object\Stage\Dynamic\Enemy\Zako\LegZako">
+      <UniqueIdentifier>{e3169bab-a474-42c7-a888-0877ecd68e66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Object\Stage\Dynamic\Enemy\Zako\WheelZako">
+      <UniqueIdentifier>{329dddfd-a187-436b-9634-829f856c5547}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Object\Stage\Dynamic\Enemy\Zako\RoadZako">
+      <UniqueIdentifier>{13cd3889-2fd2-4238-84c6-671eb577db65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Object\Stage\Dynamic\Enemy\Zako\WaraiZako">
+      <UniqueIdentifier>{f479ff44-9235-44ab-9dc9-e50859859b66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Object\Stage\Dynamic\Enemy\Zako\CarZako">
+      <UniqueIdentifier>{572c673f-7b2b-46e0-b63c-a3032bb8182d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Object\Stage\Dynamic\Enemy\Zako\BeeZako">
+      <UniqueIdentifier>{84401bf2-c258-4dd9-8ca8-a3c7e55e52ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Object\Stage\Dynamic\Enemy\MBoss">
+      <UniqueIdentifier>{c4f8387c-fc8f-4466-93b5-4c9307b265e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Object\Stage\Dynamic\Enemy\MBoss\Bee">
+      <UniqueIdentifier>{9ea0a852-ccc8-4629-9296-000e7bad932b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Object\Stage\Dynamic\Player">
+      <UniqueIdentifier>{5a3578f7-ca32-4e2e-a9e2-75cca860539a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Object\Stage\Dynamic\Player\Zero">
+      <UniqueIdentifier>{39fdc441-b3d6-44d4-9ca8-49982f9a3e74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Object\Stage\Dynamic\Player\RockX">
+      <UniqueIdentifier>{d5ca8e0e-ffc3-40dc-af42-1fece1d65fd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Object\Stage\Dynamic\Enemy\AI\MBoss">
+      <UniqueIdentifier>{feb0c847-6c76-4f81-8442-adbade0944e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Object\Stage\Dynamic\Enemy\AI\MBoss\MBeeAI">
+      <UniqueIdentifier>{ac2c508c-5a16-4262-ab24-f156bf66c34e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Object\Stage\Dynamic\Enemy\AI\Zako">
+      <UniqueIdentifier>{5c651545-df63-4919-b4ae-945f78509d3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Object\Stage\Dynamic\Enemy\AI\Zako\AIPattern1">
+      <UniqueIdentifier>{96797970-f98e-4bf2-919b-eb0dfc877062}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Object\Stage\Static\BillBoard">
+      <UniqueIdentifier>{ab461b9a-533d-4081-a96c-476ee27abd0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Object\Stage\Static\BillBoard\EnemyInfo">
+      <UniqueIdentifier>{4fdb4aef-d54e-4948-9c1a-c66c6c056194}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Object\Stage\Static\BillBoard\BillEffect">
+      <UniqueIdentifier>{522bf8f6-0f91-44d6-add2-ad01d896c730}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Object\Stage\Static\BillBoard\EnemyInfo\EnemyHp">
+      <UniqueIdentifier>{154125b1-e4c5-4739-84f6-799d596c0506}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Object\UI">
+      <UniqueIdentifier>{a007eb27-9817-48c0-9e2f-53c5362d6e0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Object\UI\Stage">
+      <UniqueIdentifier>{232738dc-52a8-48c8-b26b-341b1e39eac4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Object\UI\Stage\BossLifeBar">
+      <UniqueIdentifier>{8f209ee9-f5a3-4fb1-9f37-b52343fbb9e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Object\UI\Stage\MenuBar">
+      <UniqueIdentifier>{009129c6-1761-49a3-814f-fdc3c48242e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Object\UI\Stage\MiniMap">
+      <UniqueIdentifier>{15df8e8c-ff5a-4a06-bd21-10fc302c2133}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Object\UI\Stage\PlayerStatusBar">
+      <UniqueIdentifier>{68f0802d-cad1-41f1-b221-e9ffd61d3bb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Object\UI\Stage\SkillBar">
+      <UniqueIdentifier>{947e4193-f76c-48af-bde7-5ab8ac9b676d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Object\UI\Stage\PlayerStatusBar\EnBar">
+      <UniqueIdentifier>{03079693-23cd-4528-8383-893042441bf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Object\UI\Stage\PlayerStatusBar\LifeBar">
+      <UniqueIdentifier>{cd55d810-e4a2-498b-bea7-4eb33c32b6c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Object\Stage\Static\Obstacle\Building">
+      <UniqueIdentifier>{ea83c9f2-0376-4e21-8b06-81e4712bd773}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Object\Stage\Static\Obstacle\Building\Road">
+      <UniqueIdentifier>{812238b4-aee4-4df2-9e53-8712fbe9fd26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\State\Stage\TestStage">
+      <UniqueIdentifier>{b75386cc-ff7d-47d1-9344-a10b5ba4ad9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\State\Stage\EnemyMgr">
+      <UniqueIdentifier>{7d71054e-cf8d-4d54-983f-68e758c4ad22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Object\Stage\Static\Bullet">
+      <UniqueIdentifier>{ba19af78-c66e-4650-80e4-205323de68d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Object\UI\Menu">
+      <UniqueIdentifier>{f6c61c17-3d2c-48f4-be54-363cd759ca86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Object\UI\Menu\Start">
+      <UniqueIdentifier>{d6de6d5c-9088-49f6-aecf-f449ac2ebc60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Object\UI\Menu\Exit">
+      <UniqueIdentifier>{06280f6f-2a46-4be6-a81a-0ab20e3c0d26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Object\UI\Menu\Option">
+      <UniqueIdentifier>{c099fbd0-5acd-4e2c-bbc6-184e01b2ea89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainProgress\Object\Stage\Static\Dash">
+      <UniqueIdentifier>{b4e2abfc-74df-4a14-b551-eb2229838b77}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="Main.ico">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="Default.fx">
+      <Filter>Manager\Shader\File</Filter>
+    </None>
+    <None Include="Terrain.fx">
+      <Filter>Manager\Shader\File</Filter>
+    </None>
+    <None Include="TestEffect.fx">
+      <Filter>Manager\Shader\File</Filter>
+    </None>
+    <None Include="TestSkinned.fx">
+      <Filter>Manager\Shader\File</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\WinApi.h">
+      <Filter>WinApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Define.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Macro.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\MainProgress.h">
+      <Filter>MainProgress</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\DynamicObj.h">
+      <Filter>MainProgress\Object\Stage\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Logo.h">
+      <Filter>MainProgress\State\Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Object.h">
+      <Filter>MainProgress\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Factory.h">
+      <Filter>DesignPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\MathMgr.h">
+      <Filter>Manager\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\MovieLoader.h">
+      <Filter>Manager\MovieLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\StateMgr.h">
+      <Filter>MainProgress\State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\TestStage.h">
+      <Filter>MainProgress\State\Stage\TestStage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\State.h">
+      <Filter>MainProgress\State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Const.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Menu.h">
+      <Filter>MainProgress\State\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Stage.h">
+      <Filter>MainProgress\State\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Camera.h">
+      <Filter>Manager\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\CamMgr.h">
+      <Filter>Manager\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\DynamicCam.h">
+      <Filter>Manager\Camera\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\StaticCam.h">
+      <Filter>Manager\Camera\Static</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\PipeLine.h">
+      <Filter>Manager\PipeLine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Collision.h">
+      <Filter>Manager\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\HashTable.h">
+      <Filter>HashTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Terrain.h">
+      <Filter>MainProgress\Object\Stage\Static\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\StaticObj.h">
+      <Filter>MainProgress\Object\Stage\Static</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Struct.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Enemy.h">
+      <Filter>MainProgress\Object\Stage\Dynamic\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Player.h">
+      <Filter>MainProgress\Object\Stage\Dynamic\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Grid.h">
+      <Filter>MainProgress\Object\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\ShaderMgr.h">
+      <Filter>Manager\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Effect.h">
+      <Filter>Manager\Shader\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Weapon.h">
+      <Filter>MainProgress\Object\Stage\Static\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Road.h">
+      <Filter>MainProgress\Object\Stage\Static\Obstacle\Building\Road</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Skybox.h">
+      <Filter>MainProgress\Object\Stage\Static\SkyBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Particle.h">
+      <Filter>MainProgress\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\ParticleMgr.h">
+      <Filter>MainProgress\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\OcTree.h">
+      <Filter>Manager\GeoGraphiDetect\OrcTree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\QurdTree.h">
+      <Filter>Manager\GeoGraphiDetect\QurdTree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Frustum.h">
+      <Filter>Manager\Frustum</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\MousePick.h">
+      <Filter>Manager\MousePick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\UI.h">
+      <Filter>MainProgress\Object\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\ExproDie.h">
+      <Filter>MainProgress\Particle\ExprosionDie</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\MachineComp.h">
+      <Filter>MainProgress\Particle\MachineCompenent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\MiniMap.h">
+      <Filter>MainProgress\Object\UI\Stage\MiniMap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\PStatusBar.h">
+      <Filter>MainProgress\Object\UI\Stage\PlayerStatusBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\SkillBar.h">
+      <Filter>MainProgress\Object\UI\Stage\SkillBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\SortMgr.h">
+      <Filter>MainProgress\Object\MGR\Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\ObjMgr.h">
+      <Filter>MainProgress\Object\MGR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\MenuBar.h">
+      <Filter>MainProgress\Object\UI\Stage\MenuBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\WheelZako.h">
+      <Filter>MainProgress\Object\Stage\Dynamic\Enemy\Zako\WheelZako</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\ElecZako.h">
+      <Filter>MainProgress\Object\Stage\Dynamic\Enemy\Zako\ElecZako</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Boss.h">
+      <Filter>MainProgress\Object\Stage\Dynamic\Enemy\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\MBoss.h">
+      <Filter>MainProgress\Object\Stage\Dynamic\Enemy\MBoss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\MBossBee.h">
+      <Filter>MainProgress\Object\Stage\Dynamic\Enemy\MBoss\Bee</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\PlayerX.h">
+      <Filter>MainProgress\Object\Stage\Dynamic\Player\RockX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\PlayerZero.h">
+      <Filter>MainProgress\Object\Stage\Dynamic\Player\Zero</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\AI.h">
+      <Filter>MainProgress\Object\Stage\Dynamic\Enemy\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\BillBoard.h">
+      <Filter>MainProgress\Object\Stage\Static\BillBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\EnBar.h">
+      <Filter>MainProgress\Object\UI\Stage\PlayerStatusBar\EnBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\LifeBar.h">
+      <Filter>MainProgress\Object\UI\Stage\PlayerStatusBar\LifeBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\BillEnemyHp.h">
+      <Filter>MainProgress\Object\Stage\Static\BillBoard\EnemyInfo\EnemyHp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\EnemyMgr.h">
+      <Filter>MainProgress\State\Stage\EnemyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Bullet.h">
+      <Filter>MainProgress\Object\Stage\Static\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Dash.h">
+      <Filter>MainProgress\Object\Stage\Static\Dash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\ExitText.h">
+      <Filter>MainProgress\Object\UI\Menu\Exit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\OptionText.h">
+      <Filter>MainProgress\Object\UI\Menu\Option</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\StartText.h">
+      <Filter>MainProgress\Object\UI\Menu\Start</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\ObjPool.h">
+      <Filter>MainProgress\Object\MGR</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\WinApi.cpp">
+      <Filter>WinApi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\MainProgress.cpp">
+      <Filter>MainProgress</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\DynamicObj.cpp">
+      <Filter>MainProgress\Object\Stage\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Logo.cpp">
+      <Filter>MainProgress\State\Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Object.cpp">
+      <Filter>MainProgress\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\MathMgr.cpp">
+      <Filter>Manager\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\MovieLoader.cpp">
+      <Filter>Manager\MovieLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\StateMgr.cpp">
+      <Filter>MainProgress\State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\TestStage.cpp">
+      <Filter>MainProgress\State\Stage\TestStage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\State.cpp">
+      <Filter>MainProgress\State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Menu.cpp">
+      <Filter>MainProgress\State\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Stage.cpp">
+      <Filter>MainProgress\State\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Camera.cpp">
+      <Filter>Manager\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\CamMgr.cpp">
+      <Filter>Manager\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\DynamicCam.cpp">
+      <Filter>Manager\Camera\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\StaticCam.cpp">
+      <Filter>Manager\Camera\Static</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\PipeLine.cpp">
+      <Filter>Manager\PipeLine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Collision.cpp">
+      <Filter>Manager\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\HashTable.cpp">
+      <Filter>HashTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Terrain.cpp">
+      <Filter>MainProgress\Object\Stage\Static\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\StaticObj.cpp">
+      <Filter>MainProgress\Object\Stage\Static</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Enemy.cpp">
+      <Filter>MainProgress\Object\Stage\Dynamic\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Player.cpp">
+      <Filter>MainProgress\Object\Stage\Dynamic\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Grid.cpp">
+      <Filter>MainProgress\Object\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\ShaderMgr.cpp">
+      <Filter>Manager\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Effect.cpp">
+      <Filter>Manager\Shader\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Weapon.cpp">
+      <Filter>MainProgress\Object\Stage\Static\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Road.cpp">
+      <Filter>MainProgress\Object\Stage\Static\Obstacle\Building\Road</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Skybox.cpp">
+      <Filter>MainProgress\Object\Stage\Static\SkyBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Particle.cpp">
+      <Filter>MainProgress\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\ParticleMgr.cpp">
+      <Filter>MainProgress\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\OcTree.cpp">
+      <Filter>Manager\GeoGraphiDetect\OrcTree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\QurdTree.cpp">
+      <Filter>Manager\GeoGraphiDetect\QurdTree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Frustum.cpp">
+      <Filter>Manager\Frustum</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\MousePick.cpp">
+      <Filter>Manager\MousePick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\UI.cpp">
+      <Filter>MainProgress\Object\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\ExproDie.cpp">
+      <Filter>MainProgress\Particle\ExprosionDie</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\MachineComp.cpp">
+      <Filter>MainProgress\Particle\MachineCompenent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\MiniMap.cpp">
+      <Filter>MainProgress\Object\UI\Stage\MiniMap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\PStatusBar.cpp">
+      <Filter>MainProgress\Object\UI\Stage\PlayerStatusBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\SkillBar.cpp">
+      <Filter>MainProgress\Object\UI\Stage\SkillBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\SortMgr.cpp">
+      <Filter>MainProgress\Object\MGR\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\ObjMgr.cpp">
+      <Filter>MainProgress\Object\MGR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\MenuBar.cpp">
+      <Filter>MainProgress\Object\UI\Stage\MenuBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\WheelZako.cpp">
+      <Filter>MainProgress\Object\Stage\Dynamic\Enemy\Zako\WheelZako</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\ElecZako.cpp">
+      <Filter>MainProgress\Object\Stage\Dynamic\Enemy\Zako\ElecZako</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Boss.cpp">
+      <Filter>MainProgress\Object\Stage\Dynamic\Enemy\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\MBoss.cpp">
+      <Filter>MainProgress\Object\Stage\Dynamic\Enemy\MBoss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\MBossBee.cpp">
+      <Filter>MainProgress\Object\Stage\Dynamic\Enemy\MBoss\Bee</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\PlayerX.cpp">
+      <Filter>MainProgress\Object\Stage\Dynamic\Player\RockX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\PlayerZero.cpp">
+      <Filter>MainProgress\Object\Stage\Dynamic\Player\Zero</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\AI.cpp">
+      <Filter>MainProgress\Object\Stage\Dynamic\Enemy\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\BillBoard.cpp">
+      <Filter>MainProgress\Object\Stage\Static\BillBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\EnBar.cpp">
+      <Filter>MainProgress\Object\UI\Stage\PlayerStatusBar\EnBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\LifeBar.cpp">
+      <Filter>MainProgress\Object\UI\Stage\PlayerStatusBar\LifeBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\BillEnemyHp.cpp">
+      <Filter>MainProgress\Object\Stage\Static\BillBoard\EnemyInfo\EnemyHp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\EnemyMgr.cpp">
+      <Filter>MainProgress\State\Stage\EnemyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Bullet.cpp">
+      <Filter>MainProgress\Object\Stage\Static\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Dash.cpp">
+      <Filter>MainProgress\Object\Stage\Static\Dash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\ExitText.cpp">
+      <Filter>MainProgress\Object\UI\Menu\Exit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\OptionText.cpp">
+      <Filter>MainProgress\Object\UI\Menu\Option</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\StartText.cpp">
+      <Filter>MainProgress\Object\UI\Menu\Start</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\ObjPool.cpp">
+      <Filter>MainProgress\Object\MGR</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Main.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
